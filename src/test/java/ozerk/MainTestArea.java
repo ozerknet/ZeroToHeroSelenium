@@ -29,6 +29,7 @@ public class MainTestArea {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
+//https://automationexercise.com/test_cases
     @Test
     public void test12() {
         driver.get("http://automationexercise.com");
