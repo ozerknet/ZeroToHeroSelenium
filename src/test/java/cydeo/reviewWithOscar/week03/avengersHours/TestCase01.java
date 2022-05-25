@@ -1,7 +1,7 @@
 package cydeo.reviewWithOscar.week03.avengersHours;
 
-import com.cydeo.utilities.BrowserUtils;
-import com.cydeo.utilities.WebDriverFactory;
+import cydeo.utilities.BrowserUtils;
+import cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

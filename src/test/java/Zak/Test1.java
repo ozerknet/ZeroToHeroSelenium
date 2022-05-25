@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.WebDriverFactory;
+import cydeo.utilities.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
 

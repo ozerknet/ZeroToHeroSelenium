@@ -3,7 +3,7 @@ package Rabia.day5_testNG_intro;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utilities.WebDriverFactory;
+import cydeo.utilities.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
 

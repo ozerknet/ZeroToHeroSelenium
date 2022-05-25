@@ -7,8 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utilities.BrowserUtils;
-import utilities.WebDriverFactory;
+import cydeo.utilities.BrowserUtils;
+import cydeo.utilities.WebDriverFactory;
 
 import java.util.List;
 import java.util.Set;

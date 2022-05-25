@@ -1,7 +1,8 @@
 package cydeo.reviewWithOscar.week04;
 
-import com.cydeo.utilities.ReviewUtils;
-import com.cydeo.utilities.WebDriverFactory;
+
+import cydeo.utilities.ReviewUtils;
+import cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
