@@ -1,4 +1,4 @@
-package cydeo.automationexercise;
+package automationexercise;
 
 import com.google.common.base.Verify;
 import cydeo.utilities.WebDriverFactory;
