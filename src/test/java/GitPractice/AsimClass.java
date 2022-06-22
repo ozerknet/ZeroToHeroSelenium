@@ -8,4 +8,9 @@ public class AsimClass {
     public static void doSomething(){
         System.out.println("first method");
     }
+
+    public static void firstMethodOfBranch(){
+        System.out.println("first method in branch");
+    }
+
 }
