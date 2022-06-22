@@ -43,7 +43,7 @@ public class Test1 {
         nameArea.sendKeys("ozer" + Keys.ENTER);
 
         WebElement emailArea = driver.findElement(By.xpath("//input[@data-qa='signup-email']"));
-        emailArea.sendKeys("mike12251@geldi.com");
+        emailArea.sendKeys("mike2251@geldi.com");
 
         // Click 'Signup' button
         WebElement signupButton = driver.findElement(By.xpath("//button[contains(text(),'Signup')]"));
