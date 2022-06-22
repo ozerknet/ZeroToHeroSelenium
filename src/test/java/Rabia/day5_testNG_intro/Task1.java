@@ -17,17 +17,22 @@ public class Task1 {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//2. Go to https://practice.cydeo.com/add_remove_elements/
+
+        //2. Go to https://practice.cydeo.com/add_remove_elements/
         driver.get("https://practice.cydeo.com/add_remove_elements/");
-//3. Click to “Add Element” button
+
+        //3. Click to “Add Element” button
         WebElement addElementBtn = driver.findElement(By.xpath("//button[@onclick = 'addElement()']"));
         addElementBtn.click();
-//4. Verify “Delete” button is displayed after clicking.
+
+        //4. Verify “Delete” button is displayed after clicking.
         WebElement deleteBtn = driver.findElement(By.xpath("//button[@onclick = 'deleteElement()']"));
         System.out.println("deleteBtn.isDisplayed() = " + deleteBtn.isDisplayed());
-//5. Click to “Delete” button.
+
+        //5. Click to “Delete” button.
         deleteBtn.click();
-//6. Verify “Delete” button is NOT displayed after clicking.
+
+        //6. Verify “Delete” button is NOT displayed after clicking.
         try{
             System.out.println("deleteBtn.isDisplayed() = " + deleteBtn.isDisplayed());
         }catch (StaleElementReferenceException e){
@@ -35,6 +40,7 @@ public class Task1 {
             System.out.println("deleteBtn.isDisplayed() = false, as a expected");
         }
         driver.close();
-//USE XPATH LOCATOR FOR ALL WEBELEMENT LOCATORS
+
+        //USE XPATH LOCATOR FOR ALL WEBELEMENT LOCATORS
     }
 }
